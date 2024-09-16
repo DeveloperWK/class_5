@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+html {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.hero_section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  .content {
+    padding-top: 6rem;
+    img[alt="bg1"] {
+      position: absolute;
+      top: -30px;
+      left: -80px;
+    }
+    img[alt="bg2"] {
+      position: absolute;
+      bottom: 10px;
+      left: -80px;
+    }
+    img[alt="bg3"] {
+      position: absolute;
+      top: 5rem;
+      left: 40.25rem;
+    }
+    img[alt="bg4"] {
+      position: absolute;
+      bottom: 138px;
+      left: 41.75rem;
+    }
+    img[alt="bg5"] {
+      position: absolute;
+      bottom: 66px;
+      left: 40.25rem;
+    }
+    img[alt="bg6"] {
+      position: absolute;
+      bottom: -8px;
+      left: 40.25rem;
+    }
+    img[alt="bg7"] {
+      position: absolute;
+      bottom: 66px;
+      left: 35.3rem;
+    }
+    img[alt="bg8"] {
+      position: absolute;
+      bottom: -8px;
+      left: 31.3rem;
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 1.25rem;
+      letter-spacing: 3px;
+      color: #2f2b71;
+      padding-bottom: 1rem;
+    }
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+      color: #5f596e;
+      line-height: 5rem;
+      padding-bottom: 1rem;
+    }
+    p {
+      font-family: "poppins", sans-serif;
+      font-weight: 500;
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
+    }
+    .apply {
+      width: 12.31rem;
+      height: 3.5rem;
+      font-family: "poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.125rem;
+      color: white;
+      letter-spacing: 3px;
+      background: linear-gradient(90deg, #54b8ff -1.36%, #54b8ff 105.62%);
+      border: none;
+    }
+  }
+  .img {
+    padding-top: 50px;
+    img[alt="shape"] {
+      position: absolute;
+      right: -82px;
+      top: 70px;
+    }
+    img[alt="Illustration"] {
+      position: absolute;
+      right: -82px;
+      top: 102px;
+      width: 500px;
+    }
+    img[alt="obj"] {
+      position: absolute;
+      right: 288px;
+      top: 156px;
+    }
+    img[alt="obj1"] {
+      position: absolute;
+      right: 232px;
+      top: 64px;
+    }
+    img[alt="obj2"] {
+      position: absolute;
+      right: 112px;
+      top: 34px;
+    }
+    img[alt="obj3"] {
+      position: absolute;
+      right: -17px;
+      top: 13px;
+    }
+    img[alt="obj4"] {
+      position: absolute;
+      right: -39px;
+      top: 164px;
+    }
+  }
+  img[alt="circle"] {
+    position: absolute;
+    right: -83px;
+    bottom: 0;
+  }
+}
